@@ -57,6 +57,8 @@ a {
   padding: 100px 100px;
   align-items: center;
   justify-content: center;
+  margin-left: 50px;
+  font-size: 14px;
 }
 .header-content h1 {
   font-size: 48px;
@@ -95,7 +97,7 @@ a {
   background-color: #E5E7EB;
   font: Roboto;
   color: #1F2937;
-  padding: 100px 100px 100px 100px;
+  padding: 100px 200px;
   text-align: center;
 }
 .section-3 h1 {
@@ -114,4 +116,32 @@ a {
 }
 
 
+.section-4 {
+  display: flex;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+}
 
+.footer {
+  background: #3882F6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  gap: 100px;
+  border-radius: 10px;
+}
+
+.footer button {
+  background-color: #3882F6;
+  color: white;
+  padding: 10px 20px;
+  border: solid white 1px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 550;
+  cursor: pointer;
+}
